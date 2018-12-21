@@ -1,0 +1,104 @@
+[2018-11-17 18:33:21,573][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:50] Starting SpringbootEpwkApplication on zhanmeihedeMacBook-Pro.local with PID 67444 (/Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk/target/classes started by zhanmeihe in /Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk)
+[2018-11-17 18:33:21,579][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:675] No active profile set, falling back to default profiles: default
+[2018-11-17 18:33:21,610][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2018-11-17 18:33:21,610][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2018-11-17 18:33:22,302][restartedMain][INFO][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$529684c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-11-17 18:33:22,637][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2018-11-17 18:33:22,653][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:33:22,658][restartedMain][INFO][org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+[2018-11-17 18:33:22,658][restartedMain][INFO][org.apache.catalina.core.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2018-11-17 18:33:22,665][restartedMain][INFO][org.apache.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhanmeihe/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-11-17 18:33:22,853][restartedMain][INFO][org.apache.jasper.servlet.TldScanner:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2018-11-17 18:33:22,858][restartedMain][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+[2018-11-17 18:33:22,859][restartedMain][INFO][org.springframework.web.context.ContextLoader:285] Root WebApplicationContext: initialization completed in 1248 ms
+[2018-11-17 18:33:22,895][restartedMain][INFO][org.springframework.boot.web.servlet.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2018-11-17 18:33:22,898][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-11-17 18:33:22,898][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-11-17 18:33:22,899][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2018-11-17 18:33:22,899][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2018-11-17 18:33:23,355][restartedMain][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2018-11-17 18:33:23,609][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57] LiveReload server is running on port 35729
+[2018-11-17 18:33:23,637][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:33:23,657][restartedMain][INFO][org.apache.tomcat.util.net.NioSelectorPool:173] Using a shared selector for servlet write/read
+[2018-11-17 18:33:23,676][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2018-11-17 18:33:23,679][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:59] Started SpringbootEpwkApplication in 27.42 seconds (JVM running for 38.191)
+[2018-11-17 18:33:26,343][http-nio-8080-exec-1][INFO][org.apache.tomcat.util.http.parser.Cookie:173] A cookie header was received [1541406565,1541559149,1541584128; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1541848204,1541868264,1541952502,1542000959; JSESSIONID=66D704AD9F01CBE578E54A96252894F6] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+[2018-11-17 18:33:26,352][http-nio-8080-exec-1][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2018-11-17 18:33:26,352][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2018-11-17 18:33:26,363][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:543] Completed initialization in 10 ms
+[2018-11-17 18:33:26,399][http-nio-8080-exec-1][INFO][com.epwk.software.boot.controller.StudentController:44] sss
+[2018-11-17 18:33:26,407][http-nio-8080-exec-1][INFO][com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+[2018-11-17 18:33:26,523][http-nio-8080-exec-1][INFO][com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+[2018-11-17 18:33:35,485][RMI TCP Connection(2)-127.0.0.1][INFO][org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:164] Application shutdown requested.
+[2018-11-17 18:33:35,490][RMI TCP Connection(2)-127.0.0.1][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2018-11-17 18:33:35,490][RMI TCP Connection(2)-127.0.0.1][INFO][com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2018-11-17 18:33:35,496][RMI TCP Connection(2)-127.0.0.1][INFO][com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2018-11-17 18:34:32,223][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:50] Starting SpringbootEpwkApplication on zhanmeihedeMacBook-Pro.local with PID 67808 (/Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk/target/classes started by zhanmeihe in /Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk)
+[2018-11-17 18:34:32,230][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:675] No active profile set, falling back to default profiles: default
+[2018-11-17 18:34:32,275][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2018-11-17 18:34:32,275][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2018-11-17 18:34:33,255][restartedMain][INFO][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$727dc799] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-11-17 18:34:33,860][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2018-11-17 18:34:33,881][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:34:33,890][restartedMain][INFO][org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+[2018-11-17 18:34:33,891][restartedMain][INFO][org.apache.catalina.core.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2018-11-17 18:34:33,903][restartedMain][INFO][org.apache.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhanmeihe/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-11-17 18:34:34,172][restartedMain][INFO][org.apache.jasper.servlet.TldScanner:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2018-11-17 18:34:34,178][restartedMain][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+[2018-11-17 18:34:34,178][restartedMain][INFO][org.springframework.web.context.ContextLoader:285] Root WebApplicationContext: initialization completed in 1902 ms
+[2018-11-17 18:34:34,219][restartedMain][INFO][org.springframework.boot.web.servlet.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2018-11-17 18:34:34,223][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-11-17 18:34:34,224][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-11-17 18:34:34,224][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2018-11-17 18:34:34,224][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2018-11-17 18:34:34,839][restartedMain][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2018-11-17 18:34:35,414][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57] LiveReload server is running on port 35729
+[2018-11-17 18:34:35,467][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:34:35,502][restartedMain][INFO][org.apache.tomcat.util.net.NioSelectorPool:173] Using a shared selector for servlet write/read
+[2018-11-17 18:34:35,549][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2018-11-17 18:34:35,560][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:59] Started SpringbootEpwkApplication in 28.718 seconds (JVM running for 34.518)
+[2018-11-17 18:35:54,267][http-nio-8080-exec-1][INFO][org.apache.tomcat.util.http.parser.Cookie:173] A cookie header was received [1541406565,1541559149,1541584128; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1541848204,1541868264,1541952502,1542000959; JSESSIONID=66D704AD9F01CBE578E54A96252894F6] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+[2018-11-17 18:35:54,281][http-nio-8080-exec-1][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2018-11-17 18:35:54,282][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2018-11-17 18:35:54,296][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:543] Completed initialization in 14 ms
+[2018-11-17 18:35:54,343][http-nio-8080-exec-1][INFO][com.epwk.software.boot.controller.StudentController:44] sss
+[2018-11-17 18:35:54,353][http-nio-8080-exec-1][INFO][com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+[2018-11-17 18:35:54,560][http-nio-8080-exec-1][INFO][com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+[2018-11-17 18:36:30,153][http-nio-8080-exec-4][INFO][com.epwk.software.boot.controller.StudentController:44] sss
+[2018-11-17 18:36:30,598][http-nio-8080-exec-6][INFO][com.epwk.software.boot.controller.StudentController:44] sss
+[2018-11-17 18:36:30,727][http-nio-8080-exec-8][INFO][com.epwk.software.boot.controller.StudentController:44] sss
+[2018-11-17 18:36:35,583][http-nio-8080-exec-10][INFO][com.epwk.software.boot.controller.StudentController:44] sss
+[2018-11-17 18:37:33,244][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2018-11-17 18:37:33,245][Thread-6][INFO][com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+[2018-11-17 18:37:33,251][Thread-6][INFO][com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+[2018-11-17 18:37:58,505][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:50] Starting SpringbootEpwkApplication on zhanmeihedeMacBook-Pro.local with PID 67808 (/Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk/target/classes started by zhanmeihe in /Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk)
+[2018-11-17 18:37:58,506][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:675] No active profile set, falling back to default profiles: default
+[2018-11-17 18:37:58,753][restartedMain][INFO][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$727dc799] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-11-17 18:37:58,823][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2018-11-17 18:37:58,825][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:37:58,825][restartedMain][INFO][org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+[2018-11-17 18:37:58,826][restartedMain][INFO][org.apache.catalina.core.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2018-11-17 18:37:58,911][restartedMain][INFO][org.apache.jasper.servlet.TldScanner:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2018-11-17 18:37:58,913][restartedMain][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+[2018-11-17 18:37:58,914][restartedMain][INFO][org.springframework.web.context.ContextLoader:285] Root WebApplicationContext: initialization completed in 404 ms
+[2018-11-17 18:37:58,927][restartedMain][INFO][org.springframework.boot.web.servlet.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2018-11-17 18:37:58,928][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-11-17 18:37:58,928][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-11-17 18:37:58,929][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2018-11-17 18:37:58,929][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2018-11-17 18:37:59,052][restartedMain][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2018-11-17 18:37:59,159][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57] LiveReload server is running on port 35729
+[2018-11-17 18:37:59,177][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:37:59,178][restartedMain][INFO][org.apache.tomcat.util.net.NioSelectorPool:173] Using a shared selector for servlet write/read
+[2018-11-17 18:37:59,181][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2018-11-17 18:37:59,182][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:59] Started SpringbootEpwkApplication in 25.738 seconds (JVM running for 238.151)
+[2018-11-17 18:37:59,184][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:56] Condition evaluation unchanged
+[2018-11-17 18:38:31,048][http-nio-8080-exec-1][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2018-11-17 18:38:31,048][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:521] Initializing Servlet 'dispatcherServlet'
+[2018-11-17 18:38:31,054][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:543] Completed initialization in 6 ms
+[2018-11-17 18:38:31,058][http-nio-8080-exec-1][INFO][com.epwk.software.boot.controller.StudentController:44] sss1
+[2018-11-17 18:38:31,060][http-nio-8080-exec-1][INFO][com.zaxxer.hikari.HikariDataSource:110] HikariPool-2 - Starting...
+[2018-11-17 18:38:31,067][http-nio-8080-exec-1][INFO][com.zaxxer.hikari.HikariDataSource:123] HikariPool-2 - Start completed.
+[2018-11-17 18:39:37,494][Thread-10][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+[2018-11-17 18:39:37,495][Thread-10][INFO][com.zaxxer.hikari.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
+[2018-11-17 18:39:37,501][Thread-10][INFO][com.zaxxer.hikari.HikariDataSource:352] HikariPool-2 - Shutdown completed.

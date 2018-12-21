@@ -1,0 +1,15 @@
+项目概要：2018-11-18 00:27:33
+
+①项目使用jdk1.8，MySQL8.1.12版本，Tomcat8，spring，springboot，mybatis，redis5.0版本，log4j构建而成，如果后期项目需要则需要加入shiro框架集成
+
+②项目基本架构已搭建完成，包括控制层和视图均已配置完成，dao层操作已配合redis实现
+
+③所需静态资源文件也已经配置完成，都在resources下
+
+⑤mybatis集成了generator代码生成，可生成bean，service，mapper，以及SQL语句，如不需要可以自己编写(主要赶进度使用)
+
+⑥jsp页面放在/springboot_epwk/src/main/webapp/WEB-INF/jsp 路径下 jsp文件夹为所有私有jsp主目录
+
+⑦每个版本完成打好的包都在放在target目录下
+
+⑧需要改动或者告知的情况下，均可在本文件内编写注释说明

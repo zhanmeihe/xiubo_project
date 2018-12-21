@@ -1,0 +1,46 @@
+server:
+  port: 80
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+    #static-path-pattern: /resources/**
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/phone_weixin?useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456789@#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 30000
+    password: 
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        min-idle: 8
+        max-idle: 0
+  #resources:
+    #static-locations:
+   # - classpath:/resources/
+   
+  profiles:
+    active:  #{默认开发，线上发布请删除dev参数}
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.epwk.software.boot.bean
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+logging:
+  config: classpath:log4j2.xml
+  level:
+    com.epwk.software.boot.mapper : debug

@@ -1,0 +1,23 @@
+[2018-11-17 18:40:02,768][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:50] Starting SpringbootEpwkApplication on zhanmeihedeMacBook-Pro.local with PID 67808 (/Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk/target/classes started by zhanmeihe in /Users/zhanmeihe/eclipse-workspace-2018/springboot_epwk)
+[2018-11-17 18:40:02,769][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:675] No active profile set, falling back to default profiles: default
+[2018-11-17 18:40:03,030][restartedMain][INFO][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$727dc799] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-11-17 18:40:03,098][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] Tomcat initialized with port(s): 8080 (http)
+[2018-11-17 18:40:03,099][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:40:03,100][restartedMain][INFO][org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+[2018-11-17 18:40:03,100][restartedMain][INFO][org.apache.catalina.core.StandardEngine:173] Starting Servlet Engine: Apache Tomcat/9.0.12
+[2018-11-17 18:40:03,170][restartedMain][INFO][org.apache.jasper.servlet.TldScanner:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2018-11-17 18:40:03,172][restartedMain][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+[2018-11-17 18:40:03,172][restartedMain][INFO][org.springframework.web.context.ContextLoader:285] Root WebApplicationContext: initialization completed in 401 ms
+[2018-11-17 18:40:03,186][restartedMain][INFO][org.springframework.boot.web.servlet.ServletRegistrationBean:186] Servlet dispatcherServlet mapped to [/]
+[2018-11-17 18:40:03,187][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-11-17 18:40:03,187][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-11-17 18:40:03,187][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'formContentFilter' to: [/*]
+[2018-11-17 18:40:03,188][restartedMain][INFO][org.springframework.boot.web.servlet.FilterRegistrationBean:248] Mapping filter: 'requestContextFilter' to: [/*]
+[2018-11-17 18:40:03,304][restartedMain][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2018-11-17 18:40:03,438][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57] LiveReload server is running on port 35729
+[2018-11-17 18:40:03,461][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[2018-11-17 18:40:03,462][restartedMain][INFO][org.apache.tomcat.util.net.NioSelectorPool:173] Using a shared selector for servlet write/read
+[2018-11-17 18:40:03,466][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8080 (http) with context path ''
+[2018-11-17 18:40:03,468][restartedMain][INFO][com.epwk.software.boot.SpringbootEpwkApplication:59] Started SpringbootEpwkApplication in 25.758 seconds (JVM running for 362.443)
+[2018-11-17 18:40:03,472][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:56] Condition evaluation unchanged
+[2018-11-17 18:40:20,002][Thread-16][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
